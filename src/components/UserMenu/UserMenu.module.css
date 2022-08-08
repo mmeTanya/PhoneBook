@@ -1,0 +1,55 @@
+.form__field {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  margin-right: 15px;
+}
+
+
+.btn {
+  background-color: #6ce3fe;
+  border: 3px solid rgb(104, 130, 224);
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  color: #000;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  animation-name: changeBgColor;
+  animation-duration: 5000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.form__btn:hover,
+.form__btn:focus {
+  color: #6ce3fe;
+  border: 3px solid #22187e;
+  box-shadow: 1px 4px 6px #22187e;
+  transform: scale(1.4);
+  overflow: hidden;
+  animation-play-state: paused;
+}
+
+@keyframes changeBgColor {
+  0% {
+    background-color: teal;
+  }
+
+  50% {
+    background-color: rgb(25, 25, 118);
+  }
+
+  100% {
+    background-color: deepskyblue;
+  }
+}

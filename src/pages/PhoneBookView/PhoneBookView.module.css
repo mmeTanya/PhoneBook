@@ -1,0 +1,29 @@
+.container{
+  margin: 150px auto 0;
+  padding: 50px;
+  min-width: 320px;
+  max-width: 1170px;
+  border: 3px solid rgb(109, 140, 231);
+}
+
+.first_title{
+  color: black;
+
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.second_title{
+  color: black;
+
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+  text-align: center;
+}
