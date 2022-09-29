@@ -28,7 +28,7 @@ export default function LoginView() {
 
   return (
     <div>
-      <h1 className={s.tittle}>Log in</h1>
+      <h1 className={s.tittle}>Welcome to PhoneBook application. <br/> For work with application you need, first, to login, or if you weren't registrated yet, make registration</h1>
 
       <form onSubmit={handleSubmit} className={s.form} autoComplete="off">
         <div className={s.form__field}>
@@ -59,7 +59,7 @@ export default function LoginView() {
         </div>
 
         <button type="submit" className={s.form__btn}>
-          Log in
+          Sign in
         </button>
       </form>
     </div>

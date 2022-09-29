@@ -32,7 +32,7 @@ export default function RegisterView() {
 
   return (
     <div>
-      <h1 className={s.tittle}>Sign in</h1>
+      <h1 className={s.tittle}>For work with PhoneBook application you need, first, make registration</h1>
 
       <form onSubmit={handleSubmit} className={s.form} autoComplete="off">
         <div className={s.form__field}>
@@ -74,7 +74,7 @@ export default function RegisterView() {
             className={s.form__input}
           />
         </div>
-        <button type="submit" className={s.form__btn}>Sign in</button>
+        <button type="submit" className={s.form__btn}>Sign up</button>
       </form>
     </div>
   );

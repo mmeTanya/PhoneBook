@@ -7,12 +7,14 @@ import s from './HeaderNav.module.css';
 
 const styles = {
   link: {
-  display: 'block',
-  padding: '20px',
-  color: '#73797a',
+    display: 'block',
+    color: 'black',
+    textDecoration: 'none',
+    fontWeight: '700',
+    fontSize: '29px',
   },
   activeLink: {
-    color: 'orange',
+    color: 'blue',
   },
 };
 
@@ -30,7 +32,7 @@ const HeaderNav = () => {
                 style={styles.link}
                 activeStyle={styles.activeLink}
               >
-                Log in
+                Login
               </NavLink>
             </li>
             <li className={s.nav__item}>
@@ -40,7 +42,7 @@ const HeaderNav = () => {
                 style={styles.link}
                 activeStyle={styles.activeLink}
               >
-               To Registrate
+                Registration
               </NavLink>
             </li>
           </ul>
